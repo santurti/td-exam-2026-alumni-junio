@@ -4,7 +4,7 @@
 - No penalizan las respuestas incorrectas
 - Todas las preguntas pueden tener mas de una respuesta válida incluso pudiendo ser las cuatro opciones correctas.
 
-## **1. Google Cloud Projects**
+## **1. Elige las respuestas correctas sobre Google Cloud Projects**
 
 - A) Los recursos (eg. VMs, buckets, bases de datos, etc) pueden pertenecer a multiples proyectos
 - B) Las políticas IAM no se pueden aplicar a nivel de proyecto, solo a nivel de recurso individual
@@ -32,7 +32,7 @@
 **Solución:**
 
 
-## **4. Dentro de las soluciones de ML/AI de Google Cloud,**
+## **4. Dentro de las soluciones de ML/AI de Google Cloud ... elige las respuestas correctas**
 - A) El "Vision API" es parte del conjunto de APIs de AI generativa que ofrece Google
 - B) El "Natural Language API" permite detectar entidades y sentimientos en un texto
 - C) Vertex AI proporciona un entorno unificado que cubre el ciclo de vida ML completo (preparacin de datos, training, despliegue y monitorización)
@@ -40,7 +40,7 @@
 
 **Solución:** 
 
-## **5. En Google Cloud Vertex AI AutoML,**
+## **5. En Google Cloud Vertex AI AutoML ... elige las respuestas correctas**
 - A) AutoML soporta imágenes, texto y vídeo pero no soporta datos tabulares
 - B) Los objetivos soportados para vídeo son reconocimiento de acciones, clasificación y seguimiento de objetos
 - C) AutoML automáticamente busca los mejores modelos y ajusta los hiperparámetros
@@ -48,7 +48,7 @@
 
 **Solución:** 
  
-## **6. Contenedores**
+## **6. Selecciona las respuestas correctas sobre contenedores**
 - A) La imagen Docker de un contenedor contiene tanto la aplicación como el kernel del sistema operativo
 - B) Un contenedor Docker se destruye en cuanto se para (docker stop)
 - C) Un contenedor esta formado por capas. Las capas que provienen de la imagen son de solo lectura y sobre ellas se añade una capa que permite tambien escritura.
