@@ -1,7 +1,7 @@
 runtime: python313
 service: 
 instance_class: F1
-entrypoint: gunicorn -b :$PORT main:apps
+entrypoint: gunicorn -b :5000 main:apps
 env_variables:
   GCP_BUCKET_NAME: "REPLACE_BUCKET_NAME" 
 handlers:
