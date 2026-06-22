@@ -1,7 +1,7 @@
 
 variable "gcp-project" {
   description = "GCP project"
-  default     = ""
+  default     = "repaso-examen-500009"
 }
 
 variable "gcp-region" {
@@ -17,21 +17,21 @@ variable "gcp-zone" {
 variable "gcp-cluster-name" {
   description = "Cluster name"
   type        = string
-  default     = ""
+  default     = "santiago-cluster-junio"
 }
 
 variable "gcp-node-count" {
   description = "K8s Number of Worker nodes"
-  type        = 
-  default     = 
+  type        = number
+  default     = 2
 }
 variable "gcp-node-size" {
   description = "K8s Worker node sizes"
   type        = string
-  default     = ""
+  default     = "e2-small"
 }
 variable "gcp-bucket-name" {
   description = "Bucket Name"
   type        = string
-  default     = ""
+  default     = "santiago-bucket-junio"
 }
