@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
-  IMAGE_NAME: gcr.io/${{ vars.GCP_PROJECT_ID }}/my-app
+  IMAGE_NAME: gcr.io/${{ vars.GCP_PROJECT_ID }}/exam2026
   GKE_CLUSTER: ${{ vars.GKE_CLUSTER }}
   GKE_ZONE: ${{ vars.GKE_ZONE }}
   
@@ -45,4 +45,3 @@ jobs:
     - name: Deploy to App Engine
       run: |
         sed "s/REPLACE_BUCKET_NAME/${{ vars.GCP_BUCKET_NAME }}/g" app.yaml > app.generated.yaml
-        gcloud app deploy app.yaml --quiet

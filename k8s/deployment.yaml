@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: exam2026
-        image: gcr.io/repaso-examen-500009/exam2026:latest
+        image: gcr.io/repaso-examen-500009/exam2026 
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
