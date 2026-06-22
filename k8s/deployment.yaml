@@ -15,7 +15,6 @@ spec:
       containers:
       - name: exam2026
         image: gcr.io/repaso-examen-500009/my-app
-        imagePullPolicy: Always
         ports:
         - containerPort: 5000
         env:
