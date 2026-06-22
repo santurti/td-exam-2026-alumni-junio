@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: deployment
+        app: service
     spec:
       containers:
       - name: exam2026
